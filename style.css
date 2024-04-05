@@ -8,7 +8,8 @@
     justify-content: space-between;
     background-color: green;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 30px;
+    text-align: center;
 }
 ul{
     display: flex;
@@ -34,4 +35,32 @@ ul{
 .nav-logo h2{
     padding-left: 100px;
     font-size: 30px;
+}
+/* header area code */
+header{
+    background-image: url(images/website\ banner.jpg);
+    padding: 200px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #411a66ce;
+}
+header input{
+    width: 500px;
+    height: 30px;
+    padding-left: 20px;
+    border: 5px;
+    
+}
+.search-bar i{
+    background-color: green;
+    padding: 8px 5px;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+
 }
