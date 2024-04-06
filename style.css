@@ -64,3 +64,63 @@ header input{
     margin-right: 10px;
 
 }
+/* main section code */
+main{
+    background-color: rgba(114, 40, 184, 0.808);
+}
+.card-design-parent{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.video-text-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+.latest-video h3{
+    color: #1ed8d8a6;
+    font-size: 20px;
+}
+.page-1-10{
+    color: #1dd4d4a6;
+    font-size: 20px;
+}
+.page-1-10 span{
+    background-color: white;
+    color: rgb(85, 80, 80);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.single-item-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 60px;
+    
+
+}
+.single-item:hover img{
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+.single-item{
+    border: 3px solid gray;
+    height: 250px;
+    cursor: pointer;
+    
+}
+.single-item img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.date-view{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 15px;
+}
