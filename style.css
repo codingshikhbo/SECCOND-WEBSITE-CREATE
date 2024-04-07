@@ -149,3 +149,39 @@ main{
     background-color: rgba(12, 163, 12, 0.555);
     color: white;
 }
+/* footer code */
+footer{
+    background-color: rgba(179, 21, 21, 0.603);
+}
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.single-para-div{
+    width: 300px;
+    margin: 40px 70px;
+}
+.single-para-div p{
+    margin: 8px 0;
+    padding: 5px 0;
+}
+.single-para-div h2{
+    margin: 15px 0;
+}
+.single-para-div a{
+    margin: 0 5px;
+    background-color: rgb(46, 5, 5);
+    padding: 7px;
+    color: white;
+    border-radius: 3px;
+}
+.single-para-div .last-p{
+    margin-top: 50px;
+}
+.single-para-div #gap{
+    /* margin-top: 20px; */
+}
